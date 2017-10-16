@@ -1,0 +1,8 @@
+C:/Users/DELL/Desktop/ZC_2.54/gme061/CMakeFiles/INSTALL.dir
+C:/Users/DELL/Desktop/ZC_2.54/gme061/CMakeFiles/ALL_BUILD.dir
+C:/Users/DELL/Desktop/ZC_2.54/gme061/CMakeFiles/ZERO_CHECK.dir
+C:/Users/DELL/Desktop/ZC_2.54/gme061/gme/CMakeFiles/gme.dir
+C:/Users/DELL/Desktop/ZC_2.54/gme061/gme/CMakeFiles/INSTALL.dir
+C:/Users/DELL/Desktop/ZC_2.54/gme061/player/CMakeFiles/INSTALL.dir
+C:/Users/DELL/Desktop/ZC_2.54/gme061/demo/CMakeFiles/demo.dir
+C:/Users/DELL/Desktop/ZC_2.54/gme061/demo/CMakeFiles/INSTALL.dir

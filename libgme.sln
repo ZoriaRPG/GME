@@ -1,0 +1,62 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcproj", "{9D7E195C-03D9-34E2-8412-9F5C8FECCABC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52A7ACC2-2F3D-3D41-A68A-65E66C4C1C2D} = {52A7ACC2-2F3D-3D41-A68A-65E66C4C1C2D}
+		{B4EAC738-2002-3C3D-81AB-DF1F3BCEC9A3} = {B4EAC738-2002-3C3D-81AB-DF1F3BCEC9A3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcproj", "{F24306D5-3C39-30DC-B81C-34C878395C1D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9D7E195C-03D9-34E2-8412-9F5C8FECCABC} = {9D7E195C-03D9-34E2-8412-9F5C8FECCABC}
+		{52A7ACC2-2F3D-3D41-A68A-65E66C4C1C2D} = {52A7ACC2-2F3D-3D41-A68A-65E66C4C1C2D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcproj", "{52A7ACC2-2F3D-3D41-A68A-65E66C4C1C2D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gme", "gme\gme.vcproj", "{B4EAC738-2002-3C3D-81AB-DF1F3BCEC9A3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52A7ACC2-2F3D-3D41-A68A-65E66C4C1C2D} = {52A7ACC2-2F3D-3D41-A68A-65E66C4C1C2D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		Release|Win32 = Release|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D7E195C-03D9-34E2-8412-9F5C8FECCABC}.Debug|Win32.ActiveCfg = Release|Win32
+		{9D7E195C-03D9-34E2-8412-9F5C8FECCABC}.Debug|Win32.Build.0 = Release|Win32
+		{9D7E195C-03D9-34E2-8412-9F5C8FECCABC}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{9D7E195C-03D9-34E2-8412-9F5C8FECCABC}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{9D7E195C-03D9-34E2-8412-9F5C8FECCABC}.Release|Win32.ActiveCfg = Release|Win32
+		{9D7E195C-03D9-34E2-8412-9F5C8FECCABC}.Release|Win32.Build.0 = Release|Win32
+		{9D7E195C-03D9-34E2-8412-9F5C8FECCABC}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{9D7E195C-03D9-34E2-8412-9F5C8FECCABC}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{F24306D5-3C39-30DC-B81C-34C878395C1D}.Debug|Win32.ActiveCfg = Release|Win32
+		{F24306D5-3C39-30DC-B81C-34C878395C1D}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{F24306D5-3C39-30DC-B81C-34C878395C1D}.Release|Win32.ActiveCfg = Release|Win32
+		{F24306D5-3C39-30DC-B81C-34C878395C1D}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{52A7ACC2-2F3D-3D41-A68A-65E66C4C1C2D}.Debug|Win32.ActiveCfg = Release|Win32
+		{52A7ACC2-2F3D-3D41-A68A-65E66C4C1C2D}.Debug|Win32.Build.0 = Release|Win32
+		{52A7ACC2-2F3D-3D41-A68A-65E66C4C1C2D}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{52A7ACC2-2F3D-3D41-A68A-65E66C4C1C2D}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{52A7ACC2-2F3D-3D41-A68A-65E66C4C1C2D}.Release|Win32.ActiveCfg = Release|Win32
+		{52A7ACC2-2F3D-3D41-A68A-65E66C4C1C2D}.Release|Win32.Build.0 = Release|Win32
+		{52A7ACC2-2F3D-3D41-A68A-65E66C4C1C2D}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{52A7ACC2-2F3D-3D41-A68A-65E66C4C1C2D}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{B4EAC738-2002-3C3D-81AB-DF1F3BCEC9A3}.Debug|Win32.ActiveCfg = Release|Win32
+		{B4EAC738-2002-3C3D-81AB-DF1F3BCEC9A3}.Debug|Win32.Build.0 = Release|Win32
+		{B4EAC738-2002-3C3D-81AB-DF1F3BCEC9A3}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{B4EAC738-2002-3C3D-81AB-DF1F3BCEC9A3}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{B4EAC738-2002-3C3D-81AB-DF1F3BCEC9A3}.Release|Win32.ActiveCfg = Release|Win32
+		{B4EAC738-2002-3C3D-81AB-DF1F3BCEC9A3}.Release|Win32.Build.0 = Release|Win32
+		{B4EAC738-2002-3C3D-81AB-DF1F3BCEC9A3}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{B4EAC738-2002-3C3D-81AB-DF1F3BCEC9A3}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
